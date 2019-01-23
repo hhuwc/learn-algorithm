@@ -6,19 +6,19 @@ Array.prototype.swap = function (n1, n2) {
   this[n2] = tmp;
 };
 Array.prototype.heapSort = function () {
-  var n = this.length - 1;
+  let n = this.length - 1;
   // 最后一个非叶子节点 (n -1) >>1 省去奇数偶数判断
-  for (var i = (n - 1) >> 1; i >= 0; i--) {
+  for (let i = (n - 1) >> 1; i >= 0; i--) {
     this.shiftDown(i, n);
   }
-  for (var j = n; j > 0; j--) {
+  for (let j = n; j > 0; j--) {
     this.swap(j, 0);
     this.shiftDown(0, j - 1);
   }
 };
 Array.prototype.shiftDown = function (index, end) {
   while (2 * index + 1 <= end) {
-    var j = 2 * index + 1;
+    let j = 2 * index + 1;
     //判断 是否有 左右子树 ,并找出 其中 最大的 一颗 子树
     if (j + 1 <= end && this[j + 1] > this[j]) {
       j++;
