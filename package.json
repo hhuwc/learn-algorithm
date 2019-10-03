@@ -1,0 +1,12 @@
+{
+  "name": "learn-algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hhuwc/learn-algorithm.git",
+  "author": "1727330498@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "lodash": "^4.17.15"
+  }
+}
