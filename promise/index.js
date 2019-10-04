@@ -1,6 +1,6 @@
-const promisesAplusTests = require('promises-aplus-tests');
+import promisesAplusTests from 'promises-aplus-tests';
 
-const MyPromise = require('./promise');
+import MyPromise from './promise';
 
 MyPromise.deferred = () => {
     let dfd = {};

@@ -1,4 +1,4 @@
-const _ = require('lodash');
+import _ from 'lodash';
 
 const PENDING = 'PENDING';
 const FULFILLED = 'FULFILLED';
@@ -155,4 +155,4 @@ class MyPromise {
     };
 }
 
-module.exports = MyPromise;
+export default MyPromise;
