@@ -10,7 +10,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.19",
         "promises-aplus-tests": "^2.1.2",
         "@babel/core": "^7.6.2",
         "@babel/node": "^7.6.2",
