@@ -20,3 +20,6 @@ yarn-error.log*
 *.sln
 *.sw*
 __snapshots__
+
+yarn.lock
+package-lock.json

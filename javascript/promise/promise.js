@@ -55,8 +55,8 @@ class MyPromise {
         onRejected = _.isFunction(onRejected)
             ? onRejected
             : error => {
-                  throw error;
-              };
+                throw error;
+            };
 
         //  处理当前promise 实例 和 then 方法返回的 promise 实例的关系
         const resolvePromise = (promise2, x, resolve, reject) => {

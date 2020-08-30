@@ -2,21 +2,20 @@
     "name": "learn-algorithm",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "git@github.com:hhuwc/learn-algorithm.git",
-    "author": "1727330498@qq.com",
+    "repository": "",
     "license": "MIT",
     "scripts": {
-        "promise": "babel-node  ./promise/index.js",
+        "promise": "babel-node  ./javascript/promise/index.js",
         "test": "jest"
     },
     "dependencies": {
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.20",
         "promises-aplus-tests": "^2.1.2",
-        "@babel/core": "^7.6.2",
-        "@babel/node": "^7.6.2",
-        "@babel/plugin-proposal-class-properties": "^7.5.5",
-        "@babel/preset-env": "^7.6.2",
-        "babel-jest": "^24.9.0",
-        "jest": "^24.9.0"
+        "@babel/core": "^7.11.4",
+        "@babel/node": "^7.10.5",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/preset-env": "^7.11.0",
+        "babel-jest": "^26.3.0",
+        "jest": "^26.4.2"
     }
 }
