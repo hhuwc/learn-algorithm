@@ -17,10 +17,10 @@ function randomNearlyOrderArray(count) {
 exports.randomNearlyOrderArray = randomNearlyOrderArray;
 
 function isSorted(arr) {
-  for (let i = 0; i + 2 < arr.length - 1; i++) {
+  for (let i = 1; i + 1 < arr.length - 1; i++) {
     if (
-      (arr[i] > arr[i + 1] && arr[i + 1] < arr[i + 2]) ||
-      (arr[i] < arr[i + 1] && arr[i + 1] > arr[i + 2])
+      !(arr[i - 1] <= arr[i] <= arr[i + 1]) &&
+      !(arr[i - 1] >= arr[i] >= arr[i + 1])
     ) {
       return false;
     }
